@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C058E0BA28DAC0490087F7D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E0B928DAC0490087F7D8 /* AppDelegate.swift */; };
+		C058E0BC28DAC0490087F7D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E0BB28DAC0490087F7D8 /* SceneDelegate.swift */; };
+		C058E0BE28DAC0490087F7D8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E0BD28DAC0490087F7D8 /* MainViewController.swift */; };
+		C058E0C128DAC0490087F7D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C058E0BF28DAC0490087F7D8 /* Main.storyboard */; };
+		C058E0C328DAC04B0087F7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C058E0C228DAC04B0087F7D8 /* Assets.xcassets */; };
+		C058E0C628DAC04B0087F7D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C058E0C428DAC04B0087F7D8 /* LaunchScreen.storyboard */; };
+		C058E0D128DAC04C0087F7D8 /* BryjAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E0D028DAC04C0087F7D8 /* BryjAppTests.swift */; };
+		C058E0DB28DAC04C0087F7D8 /* BryjAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E0DA28DAC04C0087F7D8 /* BryjAppUITests.swift */; };
+		C058E0DD28DAC04C0087F7D8 /* BryjAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E0DC28DAC04C0087F7D8 /* BryjAppUITestsLaunchTests.swift */; };
+		C058E0EA28DAC0BD0087F7D8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E0E928DAC0BD0087F7D8 /* TabBarViewController.swift */; };
+		C058E0EC28DB55EE0087F7D8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E0EB28DB55EE0087F7D8 /* HeaderView.swift */; };
+		C058E0EE28DC11920087F7D8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E0ED28DC11920087F7D8 /* Constant.swift */; };
+		C058E0F228DD35A10087F7D8 /* MainViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E0F128DD35A10087F7D8 /* MainViewController+Extension.swift */; };
+		C058E0F428DDAF300087F7D8 /* TopImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E0F328DDAF300087F7D8 /* TopImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C058E0CD28DAC04C0087F7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C058E0AE28DAC0490087F7D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C058E0B528DAC0490087F7D8;
+			remoteInfo = BryjApp;
+		};
+		C058E0D728DAC04C0087F7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C058E0AE28DAC0490087F7D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C058E0B528DAC0490087F7D8;
+			remoteInfo = BryjApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C058E0B628DAC0490087F7D8 /* BryjApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BryjApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C058E0B928DAC0490087F7D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C058E0BB28DAC0490087F7D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C058E0BD28DAC0490087F7D8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C058E0C028DAC0490087F7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C058E0C228DAC04B0087F7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C058E0C528DAC04B0087F7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C058E0C728DAC04B0087F7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C058E0CC28DAC04C0087F7D8 /* BryjAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BryjAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C058E0D028DAC04C0087F7D8 /* BryjAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BryjAppTests.swift; sourceTree = "<group>"; };
+		C058E0D628DAC04C0087F7D8 /* BryjAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BryjAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C058E0DA28DAC04C0087F7D8 /* BryjAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BryjAppUITests.swift; sourceTree = "<group>"; };
+		C058E0DC28DAC04C0087F7D8 /* BryjAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BryjAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C058E0E928DAC0BD0087F7D8 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C058E0EB28DB55EE0087F7D8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C058E0ED28DC11920087F7D8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C058E0F128DD35A10087F7D8 /* MainViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+Extension.swift"; sourceTree = "<group>"; };
+		C058E0F328DDAF300087F7D8 /* TopImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C058E0B328DAC0490087F7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C058E0C928DAC04C0087F7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C058E0D328DAC04C0087F7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C058E0AD28DAC0490087F7D8 = {
+			isa = PBXGroup;
+			children = (
+				C058E0B828DAC0490087F7D8 /* BryjApp */,
+				C058E0CF28DAC04C0087F7D8 /* BryjAppTests */,
+				C058E0D928DAC04C0087F7D8 /* BryjAppUITests */,
+				C058E0B728DAC0490087F7D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C058E0B728DAC0490087F7D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C058E0B628DAC0490087F7D8 /* BryjApp.app */,
+				C058E0CC28DAC04C0087F7D8 /* BryjAppTests.xctest */,
+				C058E0D628DAC04C0087F7D8 /* BryjAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C058E0B828DAC0490087F7D8 /* BryjApp */ = {
+			isa = PBXGroup;
+			children = (
+				C058E0B928DAC0490087F7D8 /* AppDelegate.swift */,
+				C058E0BB28DAC0490087F7D8 /* SceneDelegate.swift */,
+				C058E0F628DDBDD70087F7D8 /* Utility */,
+				C058E0F528DDBDAF0087F7D8 /* View */,
+				C058E0F728DDBDFA0087F7D8 /* Extension */,
+				C058E0F828DDBE0C0087F7D8 /* ViewController */,
+				C058E0BF28DAC0490087F7D8 /* Main.storyboard */,
+				C058E0C228DAC04B0087F7D8 /* Assets.xcassets */,
+				C058E0C428DAC04B0087F7D8 /* LaunchScreen.storyboard */,
+				C058E0C728DAC04B0087F7D8 /* Info.plist */,
+			);
+			path = BryjApp;
+			sourceTree = "<group>";
+		};
+		C058E0CF28DAC04C0087F7D8 /* BryjAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C058E0D028DAC04C0087F7D8 /* BryjAppTests.swift */,
+			);
+			path = BryjAppTests;
+			sourceTree = "<group>";
+		};
+		C058E0D928DAC04C0087F7D8 /* BryjAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C058E0DA28DAC04C0087F7D8 /* BryjAppUITests.swift */,
+				C058E0DC28DAC04C0087F7D8 /* BryjAppUITestsLaunchTests.swift */,
+			);
+			path = BryjAppUITests;
+			sourceTree = "<group>";
+		};
+		C058E0F528DDBDAF0087F7D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C058E0EB28DB55EE0087F7D8 /* HeaderView.swift */,
+				C058E0F328DDAF300087F7D8 /* TopImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C058E0F628DDBDD70087F7D8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C058E0ED28DC11920087F7D8 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C058E0F728DDBDFA0087F7D8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C058E0F128DD35A10087F7D8 /* MainViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C058E0F828DDBE0C0087F7D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C058E0BD28DAC0490087F7D8 /* MainViewController.swift */,
+				C058E0E928DAC0BD0087F7D8 /* TabBarViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C058E0B528DAC0490087F7D8 /* BryjApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C058E0E028DAC04C0087F7D8 /* Build configuration list for PBXNativeTarget "BryjApp" */;
+			buildPhases = (
+				C058E0B228DAC0490087F7D8 /* Sources */,
+				C058E0B328DAC0490087F7D8 /* Frameworks */,
+				C058E0B428DAC0490087F7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BryjApp;
+			productName = BryjApp;
+			productReference = C058E0B628DAC0490087F7D8 /* BryjApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C058E0CB28DAC04C0087F7D8 /* BryjAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C058E0E328DAC04C0087F7D8 /* Build configuration list for PBXNativeTarget "BryjAppTests" */;
+			buildPhases = (
+				C058E0C828DAC04C0087F7D8 /* Sources */,
+				C058E0C928DAC04C0087F7D8 /* Frameworks */,
+				C058E0CA28DAC04C0087F7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C058E0CE28DAC04C0087F7D8 /* PBXTargetDependency */,
+			);
+			name = BryjAppTests;
+			productName = BryjAppTests;
+			productReference = C058E0CC28DAC04C0087F7D8 /* BryjAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C058E0D528DAC04C0087F7D8 /* BryjAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C058E0E628DAC04C0087F7D8 /* Build configuration list for PBXNativeTarget "BryjAppUITests" */;
+			buildPhases = (
+				C058E0D228DAC04C0087F7D8 /* Sources */,
+				C058E0D328DAC04C0087F7D8 /* Frameworks */,
+				C058E0D428DAC04C0087F7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C058E0D828DAC04C0087F7D8 /* PBXTargetDependency */,
+			);
+			name = BryjAppUITests;
+			productName = BryjAppUITests;
+			productReference = C058E0D628DAC04C0087F7D8 /* BryjAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C058E0AE28DAC0490087F7D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C058E0B528DAC0490087F7D8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C058E0CB28DAC04C0087F7D8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C058E0B528DAC0490087F7D8;
+					};
+					C058E0D528DAC04C0087F7D8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C058E0B528DAC0490087F7D8;
+					};
+				};
+			};
+			buildConfigurationList = C058E0B128DAC0490087F7D8 /* Build configuration list for PBXProject "BryjApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C058E0AD28DAC0490087F7D8;
+			productRefGroup = C058E0B728DAC0490087F7D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C058E0B528DAC0490087F7D8 /* BryjApp */,
+				C058E0CB28DAC04C0087F7D8 /* BryjAppTests */,
+				C058E0D528DAC04C0087F7D8 /* BryjAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C058E0B428DAC0490087F7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C058E0C628DAC04B0087F7D8 /* LaunchScreen.storyboard in Resources */,
+				C058E0C328DAC04B0087F7D8 /* Assets.xcassets in Resources */,
+				C058E0C128DAC0490087F7D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C058E0CA28DAC04C0087F7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C058E0D428DAC04C0087F7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C058E0B228DAC0490087F7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C058E0F428DDAF300087F7D8 /* TopImageView.swift in Sources */,
+				C058E0EC28DB55EE0087F7D8 /* HeaderView.swift in Sources */,
+				C058E0EA28DAC0BD0087F7D8 /* TabBarViewController.swift in Sources */,
+				C058E0BE28DAC0490087F7D8 /* MainViewController.swift in Sources */,
+				C058E0BA28DAC0490087F7D8 /* AppDelegate.swift in Sources */,
+				C058E0F228DD35A10087F7D8 /* MainViewController+Extension.swift in Sources */,
+				C058E0BC28DAC0490087F7D8 /* SceneDelegate.swift in Sources */,
+				C058E0EE28DC11920087F7D8 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C058E0C828DAC04C0087F7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C058E0D128DAC04C0087F7D8 /* BryjAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C058E0D228DAC04C0087F7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C058E0DB28DAC04C0087F7D8 /* BryjAppUITests.swift in Sources */,
+				C058E0DD28DAC04C0087F7D8 /* BryjAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C058E0CE28DAC04C0087F7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C058E0B528DAC0490087F7D8 /* BryjApp */;
+			targetProxy = C058E0CD28DAC04C0087F7D8 /* PBXContainerItemProxy */;
+		};
+		C058E0D828DAC04C0087F7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C058E0B528DAC0490087F7D8 /* BryjApp */;
+			targetProxy = C058E0D728DAC04C0087F7D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C058E0BF28DAC0490087F7D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C058E0C028DAC0490087F7D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C058E0C428DAC04B0087F7D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C058E0C528DAC04B0087F7D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C058E0DE28DAC04C0087F7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C058E0DF28DAC04C0087F7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C058E0E128DAC04C0087F7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU2676CNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BryjApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raziehHalimi.BryjApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C058E0E228DAC04C0087F7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU2676CNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BryjApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raziehHalimi.BryjApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C058E0E428DAC04C0087F7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU2676CNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raziehHalimi.BryjAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BryjApp.app/BryjApp";
+			};
+			name = Debug;
+		};
+		C058E0E528DAC04C0087F7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU2676CNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raziehHalimi.BryjAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BryjApp.app/BryjApp";
+			};
+			name = Release;
+		};
+		C058E0E728DAC04C0087F7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU2676CNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raziehHalimi.BryjAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BryjApp;
+			};
+			name = Debug;
+		};
+		C058E0E828DAC04C0087F7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU2676CNYZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = raziehHalimi.BryjAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BryjApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C058E0B128DAC0490087F7D8 /* Build configuration list for PBXProject "BryjApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C058E0DE28DAC04C0087F7D8 /* Debug */,
+				C058E0DF28DAC04C0087F7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C058E0E028DAC04C0087F7D8 /* Build configuration list for PBXNativeTarget "BryjApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C058E0E128DAC04C0087F7D8 /* Debug */,
+				C058E0E228DAC04C0087F7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C058E0E328DAC04C0087F7D8 /* Build configuration list for PBXNativeTarget "BryjAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C058E0E428DAC04C0087F7D8 /* Debug */,
+				C058E0E528DAC04C0087F7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C058E0E628DAC04C0087F7D8 /* Build configuration list for PBXNativeTarget "BryjAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C058E0E728DAC04C0087F7D8 /* Debug */,
+				C058E0E828DAC04C0087F7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C058E0AE28DAC0490087F7D8 /* Project object */;
+}
